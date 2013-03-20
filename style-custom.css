@@ -133,3 +133,27 @@ div.footer-wrapper div.custom-sidebar .recent-post-widget-date{ background: url(
 #featured .info a:hover{text-decoration:underline;}
 #featured .ui-tabs-hide{display:none;}
 #featured li.ui-tabs-nav-item a:hover,#featured ul.ui-tabs-nav li.ui-tabs-selected a,#featured ul.ui-tabs-nav li.ui-tabs-active a{background:#cfcfcf;}
+
+/* all products page */
+.btn-ap-elevators a, 
+.btn-ap-brochure a,
+.btn-ap-auspricelist a {
+	display: block;
+	width: 294px;
+	height: 196px;
+	text-indent: -9999999px;
+}
+
+.btn-ap-elevators a:hover, 
+.btn-ap-brochure a:hover,
+.btn-ap-auspricelist a:hover {
+	background-position: right top;
+}
+
+.btn-ap-elevators a { background: url(/wp-content/uploads/2013/03/weng-clickhere-elevators.png) no-repeat left top;}
+.btn-ap-brochure a { background: url(/wp-content/uploads/2013/03/weng-clickhere-brochure.png) no-repeat left top;}
+.btn-ap-auspricelist a { background: url(/wp-content/uploads/2013/03/weng-clickhere-auspricelist.png) no-repeat left top;}
+
+td { vertical-align: top !important;}
+table a img.thumbn { border: 1px solid #e5e5e5}
+

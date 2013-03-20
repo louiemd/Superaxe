@@ -169,7 +169,7 @@
 			<br class="clear">
 		</div>
 
-		<?php if(is_front_page()): ?>
+		<?php if(is_front_page()) { ?>
 			<div class="page-wrapper">
 				<div class="four columns mt0">
 					<?php if (!function_exists('dynamic_sidebar')|| !dynamic_sidebar('Home Custom One')): ?><?php endif; ?>	
@@ -188,11 +188,12 @@
 			
 			<?php load_template(TEMPLATEPATH . '/custom-video-slider.php'); ?>
 			
-			<?php else : ?>
+			
+			<?php } else { ?>
 				
 				<!-- Not Homepage -->
 				
-		<?php endif; ?>
+		<?php } ?>
 		
 
 	</div> <!-- content-wrapper -->
