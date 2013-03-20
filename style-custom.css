@@ -110,131 +110,26 @@ div.footer-wrapper div.custom-sidebar .recent-post-widget-comment-num{ backgroun
 div.footer-wrapper div.custom-sidebar .recent-post-widget-date{ background: url(http://superaxe.securepagelink.com/wp-content/themes/modernize_v2-23/images/icon/light/calendar.png) no-repeat 0px 1px; } 
 
 /* Buttons */
-
-.btn-testimonials a {
-	background: url('/wp-content/uploads/2013/03/weng-linkbtn-testimonials.png') no-repeat left top;
-}
-
-.btn-news a {
-	background: url('/wp-content/uploads/2013/03/weng-linkbtn-news.png') no-repeat left top;
-}
-
-
-.btn-brochure a {
-	background: url('/wp-content/uploads/2013/03/weng-linkbtn-download.png') no-repeat left top;
-}
-
-.btn-field-day a {
-	background: url('/wp-content/uploads/2013/03/weng-linkbtn-fielddays.png') no-repeat left top;
-}
-
-.btn-testimonials a,
-.btn-news a,
-.btn-brochure a,
-.btn-field-day a {
-	display: block;
-	width: 220px;
-	height: 131px;
-	text-indent: -9999999px;
-}
-
-.btn-testimonials a:hover,
-.btn-news a:hover,
-.btn-brochure a:hover,
-.btn-field-day a:hover {
-	background-position: right top;
-}
-
-/* featured custom */
-
-#featured{ 
-	width:920px; 
-	/* padding-right:300px; */ 
-	position:relative; 
-	border:10px solid #313131; 
-	height:370px;
-	margin-left: auto;
-	margin-right: auto;	
-	margin-bottom: 20px;
-	background:#313131;
-	overflow:hidden;
-}
-#featured ul.ui-tabs-nav{ 
-	position:absolute; 
-	top:0; 
-	left:620px; 
-	list-style:none; 
-	padding:0;
-	margin:0; 
-	width:300px; 
-	height:370px;
-	overflow:auto;
-	overflow-x:hidden;
-}
-#featured ul.ui-tabs-nav li{ 
-	padding:1px 0; 
-	padding-left:13px;  
-	font-size:12px; 
-	color:#666;
-}
-#featured ul.ui-tabs-nav li img{ 
-	float:left; 
-	margin:2px 5px; 
-	background:#fff; 
-	padding:2px; 
-	border:1px solid #eee;
-}
-#featured ul.ui-tabs-nav li span{ 
-	font-size:11px; font-family:Verdana; 
-	line-height:18px; 
-}
-#featured li.ui-tabs-nav-item a{ 
-	display:block; 
-	height:60px; text-decoration:none;
-	color:#333;  background:#fff; 
-	line-height:15px; outline:none;
-}
-#featured li.ui-tabs-nav-item a:hover{ 
-	background:#cfcfcf; 
-}
-#featured li.ui-tabs-selected, #featured li.ui-tabs-active{ 
-	background:url('images/selected-item.gif') top left no-repeat;  
-}
-#featured ul.ui-tabs-nav li.ui-tabs-selected a, #featured ul.ui-tabs-nav li.ui-tabs-active a{ 
-	background:#cfcfcf; 
-}
-#featured .ui-tabs-panel{ 
-	width:620px; 
-	height:380px; 
-	background:#313131; 
-	position:relative;
-}
-#featured .ui-tabs-panel .info{ 
-	position:absolute; 
-	bottom:0; left:0; 
-	height:70px; 
-	background: url('images/transparent-bg.png'); 
-}
-#featured .ui-tabs-panel .info a.hideshow{
-	position:absolute; font-size:11px; font-family:Verdana; color:#f0f0f0; right:10px; top:-20px; line-height:20px; margin:0; outline:none; background:#333;
-}
-#featured .info h2{ 
-	font-size:1.2em; font-family:Georgia, serif; 
-	color:#fff; padding:5px; margin:0; font-weight:normal;
-	overflow:hidden; 
-}
-#featured .info p{ 
-	margin:0 5px; 
-	font-family:Verdana; font-size:11px; 
-	line-height:15px; color:#f0f0f0;
-}
-#featured .info a{ 
-	text-decoration:none; 
-	color:#fff; 
-}
-#featured .info a:hover{ 
-	text-decoration:underline; 
-}
-#featured .ui-tabs-hide{ 
-	display:none; 
-}
+.btn-testimonials a{background:url(/wp-content/uploads/2013/03/weng-linkbtn-testimonials.png) no-repeat left top;}
+.btn-news a{background:url(/wp-content/uploads/2013/03/weng-linkbtn-news.png) no-repeat left top;}
+.btn-brochure a{background:url(/wp-content/uploads/2013/03/weng-linkbtn-download.png) no-repeat left top;}
+.btn-field-day a{background:url(/wp-content/uploads/2013/03/weng-linkbtn-fielddays.png) no-repeat left top;}
+.btn-testimonials a,.btn-news a,.btn-brochure a,.btn-field-day a{display:block;width:220px;height:131px;text-indent:-9999999px;}
+.btn-testimonials a:hover,.btn-news a:hover,.btn-brochure a:hover,.btn-field-day a:hover{background-position:right top;}
+/* Feature Videos  */
+#featured{width:920px;position:relative;border:10px solid #313131;height:370px;background:#313131;overflow:hidden;margin:20px auto;}
+#featured ul.ui-tabs-nav{position:absolute;top:0;left:620px;list-style:none;width:300px;height:370px;overflow:auto;overflow-x:hidden;margin:0;padding:0;}
+#featured ul.ui-tabs-nav li{font-size:12px;color:#666;padding:1px 0 1px 13px;}
+#featured ul.ui-tabs-nav li img{float:left;background:#fff;border:1px solid #eee;margin:2px 5px;padding:2px;}
+#featured ul.ui-tabs-nav li span{font-size:11px;font-family:Verdana;line-height:18px;}
+#featured li.ui-tabs-nav-item a{display:block;height:60px;text-decoration:none;color:#333;background:#fff;line-height:15px;outline:none;}
+#featured li.ui-tabs-selected,#featured li.ui-tabs-active{background:url(images/selected-item.gif) top left no-repeat;}
+#featured .ui-tabs-panel{width:620px;height:380px;background:#313131;position:relative;}
+#featured .ui-tabs-panel .info{position:absolute;bottom:0;left:0;height:70px;background:url(images/transparent-bg.png);}
+#featured .ui-tabs-panel .info a.hideshow{position:absolute;font-size:11px;font-family:Verdana;color:#f0f0f0;right:10px;top:-20px;line-height:20px;outline:none;background:#333;margin:0;}
+#featured .info h2{font-size:1.2em;font-family:Georgia, serif;color:#fff;font-weight:normal;overflow:hidden;margin:0;padding:5px;}
+#featured .info p{font-family:Verdana;font-size:11px;line-height:15px;color:#f0f0f0;margin:0 5px;}
+#featured .info a{text-decoration:none;color:#fff;}
+#featured .info a:hover{text-decoration:underline;}
+#featured .ui-tabs-hide{display:none;}
+#featured li.ui-tabs-nav-item a:hover,#featured ul.ui-tabs-nav li.ui-tabs-selected a,#featured ul.ui-tabs-nav li.ui-tabs-active a{background:#cfcfcf;}
